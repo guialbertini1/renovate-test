@@ -2,6 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":dependencyDashboard"],
   "packageRules": [
-    
+    {
+      "packagePatterns": ["*"],
+      "excludePackagePatterns": ["embla-carousel-react", "next", "next-pwa", "next-react-svg", "next-transpile-modules", "sharp"],
+      "enabled": false
+    }
   ]
 }
