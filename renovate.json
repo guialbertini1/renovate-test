@@ -2,5 +2,24 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor"],
+      "groupName": "MinorDevDependencies",
+      "enabled": false
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch", "major"],
+      "groupName": "DevDependencies",
+      "enabled": true
+    },
+    {
+      "packagePatterns": ["*"],
+      "excludePackagePatterns": ["embla-carousel-react", "next", "next-pwa", "next-react-svg", "next-transpile-modules", "sharp"],
+      "enabled": false
+    }
   ]
 }
