@@ -22,5 +22,5 @@
       "enabled": false
     }
   ],
-  "schedule": ["every minute"]
+  "schedule": ["every 2 minutes"]
 }
