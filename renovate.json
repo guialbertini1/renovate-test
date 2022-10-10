@@ -21,6 +21,5 @@
       "excludePackagePatterns": ["embla-carousel-react", "next", "next-pwa", "next-react-svg", "next-transpile-modules", "sharp"],
       "enabled": false
     }
-  ],
-  "schedule": ["every 2 minutes"]
+  ]
 }
