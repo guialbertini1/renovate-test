@@ -20,7 +20,7 @@
     },
     {
       "packagePatterns": ["*"],
-      "excludePackagePatterns": ["embla-carousel-react", "next", "next-pwa", "next-react-svg", "next-transpile-modules", "sharp"],
+      "excludePackagePatterns": ["embla-carousel-react", "next", "next-pwa", "next-react-svg", "next-transpile-modules", "sharp", "concurrently", "husky"],
       "enabled": false
     }
   ]

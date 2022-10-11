@@ -14,7 +14,9 @@
     "react-dom": "18.2.0",
     "jest": "27.4.3",
     "newrelic": "8.10.0",
-    "sass": "1.44.0"
+    "sass": "1.44.0",
+    "concurrently": "6.5.1",
+    "husky": "7.0.4"
   },
   "devDependencies": {
     "@types/node": "18.8.3",
