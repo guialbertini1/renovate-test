@@ -3,6 +3,10 @@
   "extends": ["config:base", ":dependencyDashboard"],
   "packageRules": [
     {
+      "groupName": "TestMonoRepo",
+      "matchPaths": ["test-monorepo"]
+    },
+    {
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["minor"],
       "groupName": "MinorDevDependencies",
