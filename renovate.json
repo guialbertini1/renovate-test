@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":dependencyDashboard"],
+  "baseBranches": ["master", "acq"],
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
@@ -16,7 +17,7 @@
     },
     {
       "packagePatterns": ["*"],
-      "excludePackagePatterns": ["embla-carousel-react", "next", "next-pwa", "next-react-svg", "next-transpile-modules", "sharp", "concurrently", "husky"],
+      "excludePackagePatterns": ["embla-carousel-react", "next", "next-pwa", "next-react-svg", "next-transpile-modules", "sharp"],
       "enabled": false
     }
   ]
